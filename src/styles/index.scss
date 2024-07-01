@@ -1,0 +1,26 @@
+/* The following block can be included in a custom.scss */
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// /* make the customizations */
+// $theme-colors: (
+//   "primary":    #003f2e,
+//   "secondary":  #5f7e70
+// );
+
+$primary: #003f2e;
+$secondary:  #5f7e70;
+$info: #003f2e;
+// $primary: map-get($map: "theme-colors", $key: "primary");
+
+/* import bootstrap to set changes */
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $secondary;
+}
